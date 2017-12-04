@@ -1,0 +1,55 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+
+    "clusterName": {
+      "value": "testclusterblogsvenansem"
+    },
+    "adminUserName": {
+      "value": "sfclusteradmin"
+    },
+    "adminPassword": {
+      "value": "M@keYourOwnPassw0rd"
+    },
+    "applicationInsightsKey": {
+      "value": "<Your appInsights Key>"
+    },
+    "sourceVaultValue": {
+      "value": "<see step 7>"
+    },
+    "certificateUrlValue": {
+      "value": "<see step 7>"
+    },
+    "certificateThumbprint": {
+      "value": "<see step 3>"
+    },
+    "datacertificateThumbprint": {
+      "value": "<see step 3>"
+    },
+    "certificateDataEncryptionUrlValue": {
+      "value": "<see step 7>"
+    },
+    "vmImageSku": {
+      "value": "2016-Datacenter"
+    },
+    "aadClusterApplicationId": {
+      "value": "<see step 8>"
+    },
+    "aadClientApplicationId": {
+      "value": "<see step 8>"
+    },
+    "vmNodeType0Size": {
+      "value": "Standard_A2_v2"
+    },
+    "loadBalancedAppPort1": {
+      "value": 49255
+    },
+    "loadBalancedAppPort2": {
+      "value": 49256
+    },
+    "nt0InstanceCount": {
+      "value": "5"
+    }
+  }
+}
